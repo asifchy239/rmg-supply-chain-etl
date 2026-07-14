@@ -99,6 +99,38 @@ Expected output:
 
 Open analysis/analysis.ipynb in VS Code or Jupyter and run all cells.
 
+📊 Key Business Insights
+
+1. Monthly Revenue & Profit Trend
+
+Revenue was stable ($240M–$300M/month) with a December 2023 profit peak — seasonal demand surge
+August 2023 showed the lowest profit despite normal revenue — cost spike worth investigating
+
+2. Top 10 Products by Revenue
+
+Men's Blazer is the #1 revenue product at $316.8M — 11.6% of total revenue
+Top 3 products (Blazer, Jacket, Jeans) account for 27.7% of total revenue
+
+3. Factory On-Time Delivery Performance
+
+All 5 factories maintained delay rates between 35.7%–36.5% — well below the 50% risk threshold
+F005 is the best performer (35.7% delay rate); F003 the weakest (36.5%)
+
+4. Product Quality vs Return Rate
+
+Men's Gloves has the highest return rate (9.5%) — quality risk flag requiring supplier review
+Men's Jacket combines high revenue ($235M) with a high 8% return rate — priority for quality intervention
+Women's Jacket has the lowest return rate (3.9%) — benchmark for quality standards
+
+5. Cost & Profit Breakdown
+
+Production cost ($1.30B) is the dominant cost driver — 83.7% of total costs
+Shipping cost ($252.9M) represents only 16.3% — optimisation opportunities are limited here
+Gross Profit Margin: 43% across $2.73B in revenue
+
+
+
+
 🛠️ Technical Skills Demonstrated
 
 SkillImplementationETL Pipeline DesignExtract → Transform → Load with timestamped loggingData ModellingStar schema join across 4 relational tablesFinancial KPI DerivationRevenue, COGS, Gross Profit, Margin calculated from raw dataSupply Chain AnalyticsDelay rate, return rate, factory performance scoringPython / Pandas82K row dataset — merges, aggregations, derived columnsData Visualisation5 publication-quality charts with Matplotlib & SeabornBusiness StorytellingInsights framed as actionable findings, not just numbers
